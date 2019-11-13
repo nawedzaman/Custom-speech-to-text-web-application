@@ -1,0 +1,14 @@
+{
+  "services": {
+    "code-pattern-custom-language-model": [
+      {
+        "credentials": {
+          "apikey": "-lQ04mB7Ws8XyvrWWGjys0xYurGWvnbfYXjKRO7ZtZ_-",
+          "url": "https://gateway-lon.watsonplatform.net/speech-to-text/api"
+        },
+        "label": "speech_to_text",
+        "name": "code-pattern-custom-language-model"
+      }
+    ]
+  }
+}

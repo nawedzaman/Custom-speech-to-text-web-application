@@ -1,0 +1,6 @@
+---
+applications:
+ - name: watson-stt-customizer
+   memory: 512M
+   routes:
+   - route: your-host.mybluemix.net
