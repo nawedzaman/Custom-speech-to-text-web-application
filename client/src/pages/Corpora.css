@@ -1,0 +1,68 @@
+.Corpora {
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 350px;
+}
+
+.Corpora table {
+  margin-top: 20px;
+}
+
+.Corpora td, th {
+  text-align: center;
+}
+
+.Corpora .tableload.glyphicon {
+  margin-right: 7px;
+  margin-top: 20px;
+  animation: spin 1s infinite linear;
+  font-size: 42px;
+  color: #888;
+}
+
+.Corpora .processing.glyphicon {
+  margin-right: 7px;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from { transform: scale(1) rotate(0deg); }
+  to { transform: scale(1) rotate(360deg); }
+}
+
+.Corpora .corpusfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.Corpora .corpuslabel {
+  font-size: 16px;
+  color: #555;
+  font-weight: 500;
+  height: 34px;
+  padding: 6px 12px;
+  background-color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 0px;
+}
+
+.Corpora .audiolabel:focus,
+.Corpora .audiolabel:hover {
+  background-color: #dedede;
+}
+
+.Corpora .LoadButton {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
